@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+.Footer-section{
+    height: 70vh;
+    background-color: #0d0f1b;
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia{
+    color: #fff;
+    background-color: #6451cd;
+    padding: 20px 25px;
+}
+.FooterTab{
+    background-color: #1c2431;
+    color: #fff;
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+.footer-BrandName span{
+    font-family: 'Exo 2', sans-serif;
+    color: #50c9e8;
+
+}
+.footer-BrandName p{
+    color: #b8b8bd;
+    font-size: 17px;
+    font-weight: 400;
+}
+.footer-BrandName{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.FooterColomn P span{
+    border-bottom: #6451cd 1px solid;
+    padding-bottom: 8PX;
+    
+}
+.FooterColomn li:hover{
+    color: #6451cd;
+}
+.FooterColomn li{
+    list-style: none;
+    line-height: 33px;
+    color: #b8b8bd;
+    cursor: pointer;
+}
+.Copyright{
+    background-color: #151b29;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.mediaIcon img{
+    width: 25px; 
+    height: auto;
+    cursor: pointer;
+}
+
+/* Responsiveness start */
+
+@media screen and (max-width: 1200px){
+    .footer-BrandName {
+        font-size: 32px;
+    }
+    .footer-BrandName p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 992px){
+    .footer-BrandName {
+        font-size: 25px;
+    }
+    .FooterColomn li {
+        font-size: 13px;
+    }
+    .Copyright {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px){
+    #footerColomn2{
+        display: none !important;
+    }
+    .footer-BrandName {
+        font-size: 22px;
+    }
+    .footer-BrandName p {
+        font-size: 11px;
+    }
+    .Copyright {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 576px){
+    .FooterColomn li {
+        font-size: 12px;
+    }
+}

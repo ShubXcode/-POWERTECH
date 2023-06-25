@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+.ForthPage-section{
+    height: 55vh;
+    background-color: #0d0f1b;
+    align-items: center;
+    display: flex;
+
+}
+.forthpageImage img{
+    width: 600px;
+    height: auto;
+
+}
+.ForthPage-heading p{
+    color: #b6b7ba;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ForthPage-heading{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+   
+}
+.ForthPage-heading h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.currency{
+    justify-content: space-between;
+    display: flex;
+}
+.currency-icon img{
+    width: 45px;
+    height: auto;
+}
+
+/* Responsiveness start */
+
+@media screen and (max-width: 1400px){
+    .ForthPage-heading h1 {
+        font-size: 41px;
+    }
+    .ForthPage-heading p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .forthpageImage{
+        display: none !important;
+    }
+    .ForthPage-heading h1 {
+        font-size: 45px;
+    }
+    .ForthPage-heading p {
+        font-size: 15px;
+    }
+}

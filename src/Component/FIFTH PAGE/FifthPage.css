@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+.FifthPage-section{
+    height: 70vh;
+    background-color: #0d0f1b;
+    align-items: center;
+    display: flex;
+}
+.FifthPage-heading p{
+    color: #b6b7ba;
+    font-size: 18px;
+    font-weight: 400;
+}
+.FifthPage-heading h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.FifthPage-heading{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.Registration p{
+    color: #b6b7ba;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 30px 0 30px;
+}
+.Registration{
+    color: #fff;
+}
+.circle{
+    width: 95px;
+    height: 95px;
+    background-color: #181b24;
+    border-radius: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.first1{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #21242d;
+    color: #bdbec0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Responsiveness start */
+
+@media screen and (max-width: 992px){
+    .Registration p {
+        padding: 0 10px 0 10px;
+    }
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+.SixthPage-section{
+    height: 70vh;
+    background-color: #0d0f1b;
+    align-items: center;
+    display: flex;
+}
+
+.SixthPage-heading h1{
+    font-size: 43px;
+    font-weight: 600;
+}
+.SixthPage-heading{
+    color: #b8b8bd;
+    display: flex;
+    justify-content: end;
+
+}
+.StartTrail{
+    padding: 15px 0;
+    width: 160px;
+    background-color: #6366f1;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+.point span{
+    color: #6366f1;
+    margin-right: 8px;
+    font-weight: 500;
+}
+.point{
+    color: #b8b8bd;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 6px 0;
+
+}
+.journey h1 .span1{
+    color: #50c9e8;
+    font-family: 'Exo 2', sans-serif !important;
+}
+.journey h1 span{
+    font-family: 'Exo 2', sans-serif !important;
+}
+.journey h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0 20px;
+
+}
+
+/* Responsiveness start */
+
+@media screen and (max-width: 992px){
+    .SixthPage-heading{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .StartTrail{
+        display: none !important;
+    }
+}

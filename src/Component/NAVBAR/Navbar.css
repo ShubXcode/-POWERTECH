@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+.NavMain-container{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.Navbar-Section{
+    background-color: #0d0f1b;
+    color: #fff !important;
+    padding: 15px 0 15px 0;
+}
+.BrandName span{
+    color: #50c9e8;
+    font-family: 'Exo 2', sans-serif;
+}
+.BrandName{
+    font-family: 'Exo 2', sans-serif;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.NavTab{
+    align-items: center;
+}
+.NavTab li:hover{
+    color: #50c9e8;
+}
+.NavTab li{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+.Buynow:hover{
+    background-color: #4044ee;
+}
+.Buynow{
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #6366f1;
+    border-radius: 6px;
+    padding: 8px 35px 8px 35px;
+    cursor: pointer;
+}
+
+/* Responsiveness start */
+
+@media screen and (max-width: 992px){
+    .NavTab{
+        display: none !important;
+    }
+}
