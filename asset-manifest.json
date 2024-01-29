@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/-POWERTECH/static/css/main.ab62d8b7.css",
+    "main.js": "/-POWERTECH/static/js/main.e532be5f.js",
+    "static/media/Home-img.png": "/-POWERTECH/static/media/Home-img.6cf50c89a7ee31af7c11.png",
+    "static/media/ThirdPageImg.png": "/-POWERTECH/static/media/ThirdPageImg.43e679edd9500b238aea.png",
+    "static/media/ForthPageImg.png": "/-POWERTECH/static/media/ForthPageImg.ff00345a262c543f48c5.png",
+    "static/media/secondPage-img.png": "/-POWERTECH/static/media/secondPage-img.c65a4bb511a1efac0604.png",
+    "static/media/review.png": "/-POWERTECH/static/media/review.a3794f03108bd1cbfd98.png",
+    "static/media/instagram.png": "/-POWERTECH/static/media/instagram.8e408da00539cdef4629.png",
+    "static/media/github.png": "/-POWERTECH/static/media/github.f3d873d71aa989badfd2.png",
+    "static/media/twitter.png": "/-POWERTECH/static/media/twitter.802534bf2678c3afb41d.png",
+    "static/media/facebook.png": "/-POWERTECH/static/media/facebook.795fce8e464693d7346d.png",
+    "static/media/behance.png": "/-POWERTECH/static/media/behance.ae5fdb3ba13e93229eae.png",
+    "index.html": "/-POWERTECH/index.html",
+    "main.ab62d8b7.css.map": "/-POWERTECH/static/css/main.ab62d8b7.css.map",
+    "main.e532be5f.js.map": "/-POWERTECH/static/js/main.e532be5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab62d8b7.css",
+    "static/js/main.e532be5f.js"
+  ]
+}
