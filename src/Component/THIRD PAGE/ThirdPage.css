@@ -3,8 +3,12 @@
 
 
 .ThirdPage-section{
-    height: 100vh;
+    padding: 135px 0;
     background-color: #0d0f1b;
+    display: flex;
+    align-items: center;
+}
+.Third-page{
     display: flex;
     align-items: center;
 }
@@ -25,7 +29,9 @@
 }
 .ThirdPage-heading{
     color: #fff;
-
+}
+.Third-page-para {
+    margin: 10px 0;
 }
 .remark h1{
     color: #fff;
@@ -37,6 +43,7 @@
     display: flex;
     justify-content: space-between;
     color: #b6b7ba;
+    margin-top: 15px;
 }
 .ThirdPage-Image img{
     width: 600px;
@@ -50,6 +57,9 @@
         width: 450px;
         height: auto;
     }
+    .ThirdPage-section {
+        padding: 125px 0 70px 0;
+    }
 }
 @media screen and (max-width: 992px){
     .ThirdPage-Image{
@@ -57,5 +67,72 @@
     }
     .ThirdPage-heading h1 {
         font-size: 57px;
+    }
+    .ThirdPage-section {
+        padding: 70px 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .ThirdPage-heading h1 {
+        font-size: 42px;
+    }
+    .Third-page-para {
+        margin: 6px 0;
+    }
+    .ThirdPage-heading p {
+        font-size: 14px;
+    }
+    .percentage{
+        line-height: 5px;
+    }
+    .ThirdPage-section {
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 577px){
+    .ThirdPage-heading h1 {
+        font-size: 26px !important;
+        text-align: center;
+        padding: 0 47px;
+    }
+    .Third-page{
+        justify-content: center;
+    }
+    .Third-page-para {
+        font-size: 13px !important;
+        padding-right: 47px;
+    }
+    .ThirdPage-section {
+        padding: 30px 0;
+    }
+    .Third-page-para {
+        font-size: 10px !important;
+        text-align: center;
+        padding: 0 36px 5px 36px;
+        line-height: 13px;
+    }
+    .remark {
+        margin-top: 10px;
+        justify-content: space-evenly;
+    }
+    .percentage-para{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    .ThirdPage-section {
+        padding: 23px 0;
+    }
+    .ThirdPage-heading h1 {
+        font-size: 20px !important;
+        padding: 0px 42px;
+    }
+    .Third-page-para {
+        font-size: 7px !important;
+        line-height: 10px;
+    }
+    .percentage-para {
+        font-size: 8px;
     }
 }
