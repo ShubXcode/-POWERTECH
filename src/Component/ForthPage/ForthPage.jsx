@@ -17,9 +17,9 @@ const ForthPage = () => {
             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5 align-items-center justify-content-center text-center d-flex">
               <div className="ForthPage-heading col-12 col-sm-12 col-md-9 col-lg-7 col-xl-12 col-xxl-12">
                 <h1>Make Your Life a lot Easier with Crypto Bank</h1>
-                <p className='mt-4 mb-5'>Sociis sit risus id. Sit facilisis dolor fermentum vestibulum arcuulvi maecenas maecenas pharet tincidunt sollicitudin in pellentesque vitae.</p>
+                <p className='Forth-page-para'>Sociis sit risus id. Sit facilisis dolor fermentum vestibulum arcuulvi maecenas maecenas pharet tincidunt sollicitudin in pellentesque vitae.</p>
                 <UnderLine />
-                <div className="currency col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4">
+                <div className="currency col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                   <div data-aos="fade-left" className="currency-icon">
                     <img src={binance} alt="" />
                   </div>
