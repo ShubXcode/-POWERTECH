@@ -3,7 +3,7 @@
 
 
 .secondPage-section{
-    height: 50vh;
+    padding: 50px 0;
     background-color: #0d0f1b;
     align-items: center;
     display: flex;
@@ -21,12 +21,22 @@
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+.point-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 
+}
 .points{
     color: #b6b7ba;
     font-size: 20px;
 }
+
 .points span{
     color: #6366f1;
     font-weight: bold;
@@ -58,5 +68,50 @@
 @media screen and (max-width: 992px){
     .SecondImage img{
         display: none !important;
+    }
+    .secondPage-Heading {
+        line-height: 55px;
+    }
+    .points {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px){
+    .secondPage-Heading {
+        line-height: 39px;
+        font-size: 38px;
+    }
+    .points {
+        font-size: 12px;
+    }
+    .point-content {
+        margin-top: 5px;
+    }
+    .secondPage-section {
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width: 577px){
+    .secondPage-Heading {
+        line-height: 31px;
+        font-size: 25px;
+    }
+    .points {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 400px){
+    .Logo-section {
+        padding: 20px 0;
+    }
+    .secondPage-section {
+        padding: 20px 0;
+    }
+    .secondPage-Heading {
+        line-height: 23px;
+        font-size: 19px;
+    }
+    .points {
+        font-size: 6px;
     }
 }
