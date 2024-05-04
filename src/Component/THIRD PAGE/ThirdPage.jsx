@@ -15,19 +15,19 @@ const ThirdPage = () => {
         <>
             <section className='ThirdPage-section'>
                 <div className="container">
-                    <div className="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 align-items-center">
+                    <div className="Third-page col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="ThirdPage-heading col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5">
                             <h1>Explore Opportunities with <span>POWER<span className='span1'>TECH</span></span></h1>
-                            <p className='mt-4 mb-4'>In blandit luctus proin mauris a commodo, dolor diam tempus, aenean magna fusce eu. Id porttitor aliquam eget aliquet sagittis eu aut diam ut phasellus sed convallis iaculis neque ultricies convallis sed enim.</p>
+                            <p className='Third-page-para'>In blandit luctus proin mauris a commodo, dolor diam tempus, aenean magna fusce eu. Id porttitor aliquam eget aliquet sagittis eu aut diam ut phasellus sed convallis iaculis neque ultricies convallis sed enim.</p>
                             <UnderLine />
-                            <div className="remark mt-5">
-                                <div className="23%" data-aos="fade-right">
+                            <div className="remark">
+                                <div className="percentage" data-aos="fade-right">
                                     <h1>23%</h1>
-                                    Nulla venenatis everys
+                                    <div className='percentage-para'>Nulla venenatis everys</div>
                                 </div>
-                                <div className="132b" data-aos="fade-left">
+                                <div className="percentage" data-aos="fade-left">
                                     <h1>132b</h1>
-                                    Dictum in marko elementum
+                                    <div className="percentage-para">Dictum in marko elementum</div>
                                 </div>
                             </div>
                         </div>
