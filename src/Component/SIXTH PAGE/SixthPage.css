@@ -6,7 +6,7 @@
 
 }
 .SixthPage-section{
-    height: 70vh;
+    padding: 70px 0;
     background-color: #0d0f1b;
     align-items: center;
     display: flex;
@@ -22,6 +22,11 @@
     justify-content: end;
 
 }
+.sixth-page-container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .StartTrail{
     padding: 15px 0;
     width: 160px;
@@ -32,6 +37,9 @@
     justify-content: center;
     color: #fff;
     cursor: pointer;
+}
+.sixth-page-container-2{
+    margin-top: 20px;
 }
 .point span{
     color: #6366f1;
@@ -69,5 +77,69 @@
     }
     .StartTrail{
         display: none !important;
+    }
+    .SixthPage-heading {
+        text-align: left;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 767px){
+    .journey h1 {
+        padding: 0;
+        text-align: left;
+    }
+    .sixth-page-container-3{
+        justify-content: left;
+    }
+    .SixthPage-heading h1 {
+        font-size: 29px;
+    }
+}
+@media screen and (max-width: 577px){
+    .journey h1 {
+        padding: 0;
+        text-align: center;
+        font-size: 26px;
+    }
+    .SixthPage-heading h1 {
+        font-size: 17px;
+        justify-content: center;
+        display: flex;
+        margin-left: 29px;
+    }
+    .sixth-page-container-2 {
+        margin-top: 0px;
+    }
+    .point {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+    .sixth-page-container-3 {
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .SixthPage-section {
+        padding: 45px 0;
+    }
+}
+@media screen and (max-width: 400px){
+    .SixthPage-section {
+        padding: 35px 0;
+    }
+    .journey h1 {
+        padding: 0 52px;
+        font-size: 20px;
+    }
+    .SixthPage-heading h1 {
+        font-size: 13px;
+    }
+    .point {
+        font-size: 11px;
+        padding: 2px 0;
+    }
+    .SixthPage-heading h1 {
+        font-size: 15px;
+        justify-content: start;
+        margin-left: 22px;
     }
 }
