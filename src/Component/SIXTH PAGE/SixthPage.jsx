@@ -10,11 +10,11 @@ const SixthPage = () => {
         <div className="container" >
           <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex justify-content-center text-center">
             <div className="journey col-12 col-sm-12 col-md-9 col-lg-7 col-xl-5 col-xxl-5">
-              <h1>Start your Trading with <span>POWER<span className='span1'>TECH</span></span></h1>
+              <div><h1>Start your Trading with <span>POWER<span className='span1'>TECH</span></span></h1></div>
             </div>
           </div>
 
-          <div className="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5">
+          <div className="sixth-page-container-2 row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div className="SixthPage-heading col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
               <div className="col-12 col-sm-12 col-md-9 col-lg-12 col-xl-10 col-xxl-9">
                 <h1>Let's start your investing easier now!</h1>
@@ -23,7 +23,7 @@ const SixthPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 align-items-start d-flex justify-content-center">
+            <div className="sixth-page-container-3 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
             <div className="SixthPage-pointS">
               <SixthPoints point="1" para="Purus vestibulum pharetra amet tincidunt pretium."/>
               <SixthPoints point="2" para="Haretra justo magna pharetra dui gravida sed nec."/>
