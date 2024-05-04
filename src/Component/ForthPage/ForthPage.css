@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
 
 .ForthPage-section{
-    height: 55vh;
+    padding: 35px 0;
     background-color: #0d0f1b;
     align-items: center;
     display: flex;
@@ -21,8 +21,10 @@
 .ForthPage-heading{
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    align-items: center;
-   
+    align-items: center;  
+}
+.Forth-page-para{
+    margin: 15px 0;
 }
 .ForthPage-heading h1{
     font-weight: 700;
@@ -31,6 +33,7 @@
 .currency{
     justify-content: space-between;
     display: flex;
+    margin-top: 25px;
 }
 .currency-icon img{
     width: 45px;
@@ -57,4 +60,50 @@
     .ForthPage-heading p {
         font-size: 15px;
     }
+    .Forth-page-para {
+        margin: 10px 0;
+    }
 }
+@media screen and (max-width: 767px){
+    .ForthPage-section {
+        padding: 70px 0;
+    }
+}
+@media screen and (max-width: 577px){
+    .ForthPage-heading h1 {
+        font-size: 25px;
+        padding: 0px 40px;
+    }
+    .ForthPage-section {
+        padding: 35px 0;
+    }
+    .ForthPage-heading p {
+        font-size: 11px;
+        padding: 0px 14px;
+    }
+    .currency {
+        margin-top: 10px;
+        justify-content: space-evenly;
+    }
+    .currency-icon img {
+        width: 35px;
+        height: auto;
+    }
+}
+ @media screen and (max-width: 400px){
+    .ForthPage-section {
+        padding: 25px 0;
+    }
+    .ForthPage-heading h1 {
+        font-size: 19px;
+        padding: 0px 40px;
+    }
+    .ForthPage-heading p {
+        font-size: 8px;
+        margin: 3px 0 5px 0;
+    }
+    .currency-icon img {
+        width: 30px;
+        height: auto;
+    }
+ }
