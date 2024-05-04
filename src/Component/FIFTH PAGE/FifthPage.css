@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
 
 .FifthPage-section{
-    height: 70vh;
+    padding: 80px 0;
     background-color: #0d0f1b;
     align-items: center;
     display: flex;
@@ -12,9 +12,15 @@
     font-size: 18px;
     font-weight: 400;
 }
+.Fifth-page-point{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
 .FifthPage-heading h1{
     font-size: 55px;
     font-weight: 700;
+    margin: 0;
 }
 .FifthPage-heading{
     font-family: 'Roboto', sans-serif;
@@ -25,9 +31,22 @@
     font-size: 15px;
     font-weight: 500;
     padding: 0 30px 0 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 15px;
+    text-align: center;
+}
+.circle-heading{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .Registration{
     color: #fff;
+    display: flex;
+    justify-content: center;
 }
 .circle{
     width: 95px;
@@ -37,6 +56,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 10px;
 }
 .first1{
     width: 60px;
@@ -57,5 +77,103 @@
 @media screen and (max-width: 992px){
     .Registration p {
         padding: 0 10px 0 10px;
+        font-size: 12px;
+    }
+    .FifthPage-section {
+        padding: 80px 0 40px 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .FifthPage-section {
+        padding: 40px 0;
+    }
+    .FifthPage-heading h1 {
+        font-size: 45px;
+    }
+    .FifthPage-heading p {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+    .Fifth-page-point {
+        margin-top: 30px;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+    .first1 {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .circle-heading{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 577px){
+    .FifthPage-section {
+        padding: 25px 0;
+    }
+    .FifthPage-heading h1 {
+        font-size: 25px;
+    }
+    .FifthPage-heading p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .Fifth-page-point {
+        margin-top: 13px;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+    .first1 {
+        width: 37px;
+        height: 37px;
+        font-size: 15px;
+    }
+    .circle-heading {
+        font-size: 10px;
+        margin: 0 0 3px 0;
+    }
+    .Registration p {
+        padding: 0 10px 0 10px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .FifthPage-section {
+        padding: 13px 0;
+    }
+    .FifthPage-heading h1 {
+        font-size: 20px;
+    }
+    .FifthPage-heading p {
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 3px;
+        padding: 0px 20px;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+    .first1 {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .Registration p {
+        padding: 0px 5px 0 5px;
+        font-size: 7px;
+        line-height: 8px;
+    }
+    .circle-heading {
+        font-size: 8px;
+        margin: 0 0 3px 0;
     }
 }
