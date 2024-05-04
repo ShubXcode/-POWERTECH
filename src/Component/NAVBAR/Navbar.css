@@ -56,3 +56,13 @@
         display: none !important;
     }
 }
+@media screen and (max-width: 577px){
+    .BrandName {
+        font-size: 20px;
+    }
+    .Buynow {
+        font-size: 14px;
+        padding: 5px 25px 5px 25px;
+    }
+
+}
