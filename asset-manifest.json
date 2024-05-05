@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/-POWERTECH/static/css/main.12fa57c5.css",
-    "main.js": "/-POWERTECH/static/js/main.900aa9ae.js",
+    "main.css": "/-POWERTECH/static/css/main.8997a177.css",
+    "main.js": "/-POWERTECH/static/js/main.7be5d33d.js",
     "static/media/Home-img.png": "/-POWERTECH/static/media/Home-img.6cf50c89a7ee31af7c11.png",
     "static/media/ThirdPageImg.png": "/-POWERTECH/static/media/ThirdPageImg.43e679edd9500b238aea.png",
     "static/media/ForthPageImg.png": "/-POWERTECH/static/media/ForthPageImg.ff00345a262c543f48c5.png",
@@ -13,11 +13,11 @@
     "static/media/facebook.png": "/-POWERTECH/static/media/facebook.795fce8e464693d7346d.png",
     "static/media/behance.png": "/-POWERTECH/static/media/behance.ae5fdb3ba13e93229eae.png",
     "index.html": "/-POWERTECH/index.html",
-    "main.12fa57c5.css.map": "/-POWERTECH/static/css/main.12fa57c5.css.map",
-    "main.900aa9ae.js.map": "/-POWERTECH/static/js/main.900aa9ae.js.map"
+    "main.8997a177.css.map": "/-POWERTECH/static/css/main.8997a177.css.map",
+    "main.7be5d33d.js.map": "/-POWERTECH/static/js/main.7be5d33d.js.map"
   },
   "entrypoints": [
-    "static/css/main.12fa57c5.css",
-    "static/js/main.900aa9ae.js"
+    "static/css/main.8997a177.css",
+    "static/js/main.7be5d33d.js"
   ]
 }
